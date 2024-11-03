@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    background-color: #111;
+    overflow-x: hidden;
+}
+#page1,#page2,#page3{
+    height: 100vh;
+    width: 100%;
+    
+}
+#move{
+    /* flex-shrink: 0; */
+    background-color: #dbff04;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0 1.5vw;
+    overflow: hidden;
+}
+.marque{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    transform: translate(-100%);
+}
+.marque h1{
+    font-size: 70px;
+}
+.marque img{
+    height: 4.5vw;
+}
